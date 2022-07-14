@@ -7,6 +7,7 @@
 
 
 #合并两张表
+
 import pandas as pd
 
 import os
@@ -40,6 +41,7 @@ data_all.to_excel(r'D://test-e//汇总.xlsx',index=False)    #为之后读取Exc
 
 
 #对两张表进行处理
+
 import pandas as pd
 
 df=pd.read_excel('D://test-e//汇总.xlsx')
